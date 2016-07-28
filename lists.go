@@ -10,7 +10,7 @@ func HasString(list []string, search string) bool {
 	return false
 }
 
-func Unique(list []string) []string {
+func UniqueString(list []string) []string {
 	result := []string{}
 	seen := map[string]bool{}
 	for _, item := range list {
