@@ -24,3 +24,16 @@ func UniqueString(list []string) []string {
 
 	return result
 }
+
+func RemoveString(list []string, remove string) []string {
+	result := []string{}
+	for _, item := range list {
+		if item == remove {
+			continue
+		}
+
+		result = append(result, item)
+	}
+
+	return result
+}
