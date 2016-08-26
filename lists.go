@@ -10,6 +10,16 @@ func HasString(list []string, search string) bool {
 	return false
 }
 
+func HasInt64(list []int64, search int64) bool {
+	for _, item := range list {
+		if item == search {
+			return true
+		}
+	}
+
+	return false
+}
+
 func UniqueString(list []string) []string {
 	result := []string{}
 	seen := map[string]bool{}
