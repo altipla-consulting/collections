@@ -1,8 +1,12 @@
 package collections
 
 func HasString(list []string, search string) bool {
+	return HasStringFn(list, func(item string) bool { return item == search })
+}
+
+func HasStringFn(list []string, search func(string) bool) bool {
 	for _, item := range list {
-		if item == search {
+		if search(item) {
 			return true
 		}
 	}
