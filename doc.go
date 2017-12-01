@@ -1,2 +1,2 @@
-// Package collections implements customized functions for our collections needs.
+// Package collections is a set of functions that help us work with slices and maps.
 package collections
