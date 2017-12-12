@@ -11,7 +11,7 @@ func HasString(list []string, search string) bool {
 	return false
 }
 
-// CompareStrings returns true if the values of two list are equals.
+// CompareStrings returns true if the values of both lhs & rhs are equals.
 func CompareStrings(lhs, rhs []string) bool {
 	if len(lhs) != len(rhs) {
 		return false
@@ -24,7 +24,7 @@ func CompareStrings(lhs, rhs []string) bool {
 	return true
 }
 
-// UniqueStrings returns a list without any duplicates in it.
+// UniqueStrings returns list without any duplicates in it.
 func UniqueStrings(list []string) []string {
 	present := map[string]bool{}
 	var result []string
@@ -51,7 +51,7 @@ func DifferenceStrings(a, b []string) []string {
 	return result
 }
 
-// RemoveString return the same list without remove.
+// RemoveString return list without remove.
 func RemoveString(list []string, remove string) []string {
 	result := []string{}
 	for _, item := range list {

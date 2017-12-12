@@ -1,6 +1,6 @@
 package collections
 
-// HasInt64 returns if list of Integer64 contains search.
+// HasInt64 returns true if list contains search.
 func HasInt64(list []int64, search int64) bool {
 	for _, item := range list {
 		if item == search {
@@ -11,7 +11,7 @@ func HasInt64(list []int64, search int64) bool {
 	return false
 }
 
-// UniqueIntegers64 returns a list of Integer64 without any duplicates in it.
+// UniqueIntegers64 returns list without any duplicates in it.
 func UniqueIntegers64(list []int64) []int64 {
 	index := map[int64]bool{}
 	result := []int64{}
@@ -25,7 +25,7 @@ func UniqueIntegers64(list []int64) []int64 {
 	return result
 }
 
-// CompareInts64 returns true if the values of both list are equals.
+// CompareInts64 returns true if the values of both lhs & rhs are equals.
 func CompareInts64(lhs, rhs []int32) bool {
 	if len(lhs) != len(rhs) {
 		return false
