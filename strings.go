@@ -11,7 +11,7 @@ func HasString(list []string, search string) bool {
 	return false
 }
 
-// CompareStrings returns true if the values of both lhs & rhs are equals.
+// CompareStrings returns true if the values of both lhs & rhs are the same.
 func CompareStrings(lhs, rhs []string) bool {
 	if len(lhs) != len(rhs) {
 		return false

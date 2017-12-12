@@ -1,6 +1,6 @@
 package collections
 
-// HasInt32 returns true if list of contains search
+// HasInt32 returns true if list contains search
 func HasInt32(list []int32, search int32) bool {
 	for _, item := range list {
 		if item == search {
@@ -25,7 +25,7 @@ func UniqueIntegers32(list []int32) []int32 {
 	return result
 }
 
-// CompareInts32 returns true if the values of both lhs & rhs are equals.
+// CompareInts32 returns true if the values of both lhs & rhs are the same.
 func CompareInts32(lhs, rhs []int32) bool {
 	if len(lhs) != len(rhs) {
 		return false
