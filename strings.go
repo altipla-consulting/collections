@@ -63,7 +63,7 @@ func RemoveString(list []string, remove string) []string {
 	return result
 }
 
-// ReverseInt64 returns a reverted list of string
+// ReverseInt64 returns a reverted list
 func ReverseString(list []string) []string {
 	result := []int64{}
 	for i := len(list) - 1; i >= 0; i-- {

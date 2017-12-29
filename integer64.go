@@ -38,7 +38,7 @@ func CompareInts64(lhs, rhs []int32) bool {
 	return true
 }
 
-// ReverseInt64 returns a reverted list of int64
+// ReverseInt64 returns a reverted list
 func ReverseInt64(list []int64) []int64 {
 	result := []int64{}
 	for i := len(list) - 1; i >= 0; i-- {
