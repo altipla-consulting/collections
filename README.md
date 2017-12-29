@@ -1,8 +1,6 @@
 
 # collections
 
-Set of functions that help us work with slices and maps.
-
 [![GoDoc](https://godoc.org/github.com/altipla-consulting/collections?status.svg)](https://godoc.org/github.com/altipla-consulting/collections)
 
 > Set of functions that help us work with slices and maps.
