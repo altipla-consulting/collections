@@ -2,8 +2,9 @@
 # collections
 
 [![GoDoc](https://godoc.org/github.com/altipla-consulting/collections?status.svg)](https://godoc.org/github.com/altipla-consulting/collections)
+[![Build Status](https://travis-ci.org/altipla-consulting/cron.svg?branch=master)](https://travis-ci.org/altipla-consulting/cron)
 
-> Set of functions that help us work with slices and maps.
+Set of functions that help us work with slices and maps.
 
 
 ### Install
