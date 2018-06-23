@@ -27,12 +27,13 @@ package main
 
 import (
   "fmt"
+  
   "github.com/altipla-consulting/collections"
 )
 
   func main() {
     goFounders := []string{"Robert Griesemer", "Rob Pike", "Ken Thompson"}
-    fmt.Println("Fracis McCabe:", collections.HasString(goFounders, "Francis McCabe"))
+    fmt.Println("Francis McCabe:", collections.HasString(goFounders, "Francis McCabe"))
     fmt.Println("RobertGriesemer:", collections.HasString(goFounders, "RobertGriesemer"))
     fmt.Println("Robert Griesemer:", collections.HasString(goFounders, "Robert Griesemer"))
   }
