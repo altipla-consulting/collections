@@ -1,5 +1,9 @@
 
-# collections
+<p align="center">
+  <img src="https://storage.googleapis.com/altipla-external-files/logos/collections.png">
+</p>
+<br>
+
 
 [![GoDoc](https://godoc.org/github.com/altipla-consulting/collections?status.svg)](https://godoc.org/github.com/altipla-consulting/collections)
 [![Build Status](https://travis-ci.org/altipla-consulting/cron.svg?branch=master)](https://travis-ci.org/altipla-consulting/cron)
