@@ -4,6 +4,7 @@
 </p>
 <br>
 
+> **DEPRECATED:** Use https://github.com/altipla-consulting/libs instead.
 
 [![GoDoc](https://godoc.org/github.com/altipla-consulting/collections?status.svg)](https://godoc.org/github.com/altipla-consulting/collections)
 [![Build Status](https://travis-ci.org/altipla-consulting/cron.svg?branch=master)](https://travis-ci.org/altipla-consulting/cron)
